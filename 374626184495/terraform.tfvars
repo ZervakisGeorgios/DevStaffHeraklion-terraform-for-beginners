@@ -1,9 +1,15 @@
-#################
-# VPC Variables #
-#################
+#####################
+# Account Variables #
+#####################
+account_profile = "star-wars-profile"
+account_id      = "374626184495"
+# #################
+# # VPC Variables #
+# #################
+vpc_name = "rogue-one-vpc"
 vpc_cidr = "10.10.10.0/24"
-public_subnet_cidr = "10.10.10.0/26"
-private_subnet_cidr = "10.10.10.64/26"
+# public_subnet_cidr = "10.10.10.0/26"
+# private_subnet_cidr = "10.10.10.64/26"
 ########
 # TAGS #
 ########

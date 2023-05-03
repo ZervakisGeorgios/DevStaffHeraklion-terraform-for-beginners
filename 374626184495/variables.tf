@@ -1,23 +1,35 @@
+#####################
+# Account Variables #
+#####################
+variable "account_profile" {
+  description = "The AWS profile used when managing the account"
+  type        = string
+}
+
+variable "account_id" {
+  description = "The AWS account id of the account that resources will be deployed into"
+  type        = string
+}
 #################
 # VPC Variables #
 #################
 variable "vpc_name" {
   description = "The name of the VPC being created"
-  type = string
-  default = "millennium-falcon"
+  type        = string
+  default     = "millennium-falcon"
 }
 
 variable "vpc_cidr" {
-  
+
 }
 
-variable "public_subnet_cidr" {
-  
-}
+# variable "public_subnet_cidr" {
 
-variable "private_subnet_cidr" {
-  
-}
+# }
+
+# variable "private_subnet_cidr" {
+
+# }
 ########
 # TAGS #
 ########
