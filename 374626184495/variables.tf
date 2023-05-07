@@ -23,13 +23,13 @@ variable "vpc_cidr" {
 
 }
 
-# variable "public_subnet_cidr" {
+variable "public_subnet_cidr" {
 
-# }
+}
 
-# variable "private_subnet_cidr" {
+variable "private_subnet_cidr" {
 
-# }
+}
 ########
 # TAGS #
 ########
@@ -49,6 +49,13 @@ variable "tag_orchestration" {
   description = "Location of terraform control repo"
 }
 
+variable "tag_contact" {
+  description = "Contact details of engineering lead"
+}
+
 variable "tag_environment" {
   description = "Value of the Environment tag"
+}
+
+variable "tag_constcode" {
 }
